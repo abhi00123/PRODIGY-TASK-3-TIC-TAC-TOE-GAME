@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    width: 300px;
+    height: 300px;
+    margin: 80px auto;
+}
+
+.square {
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#restart {
+    margin-top: 40px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
